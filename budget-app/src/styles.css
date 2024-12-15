@@ -1,0 +1,192 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Center the content */
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+/* Button Style */
+button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Add space between components */
+section {
+  margin-bottom: 30px;
+}
+
+/* For general forms */
+input, select, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+input[type="submit"] {
+  background-color: #2ecc71;
+  border: none;
+  color: white;
+}
+
+input[type="submit"]:hover {
+  background-color: #27ae60;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+/* Make list entries look nice */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ecf0f1;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+li span {
+  display: block;
+  font-size: 0.9em;
+  color: #7f8c8d;
+}
+
+/* BudgetForm styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input[type="number"] {
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Summary component styles */
+section h2 {
+  color: #3498db;
+}
+
+/* BudgetLog Table Styles */
+table.budget-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table.budget-table th,
+table.budget-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table.budget-table th {
+  background-color: #3498db;
+  color: white;
+}
+
+table.budget-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.budget-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table.budget-table td {
+  font-size: 1.1em;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  color: #2c3e50;
+}
+
+/* History Table Styles */
+table.history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table.history-table th,
+table.history-table td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+table.history-table th {
+  background-color: #e67e22;
+  color: white;
+}
+
+table.history-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table.history-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+table.history-table td {
+  font-size: 1.1em;
+}
+
+section h2 {
+  margin-bottom: 10px;
+  font-size: 1.6em;
+  color: #2c3e50;
+}
